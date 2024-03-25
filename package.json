@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "push": "git add . && git commit -m 'update' && git push",
     "build": "vite build --base=/DigITall-JS/",
     "preview": "vite preview",
     "push": "git add . && git commit -m '.' && git push"
